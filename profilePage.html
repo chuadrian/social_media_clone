@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TopBook(Facebook Clone)</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c618669b20.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+                
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav-left-col">
+                <a href="index.html">
+                <img src="images/profile.png" class="logo">
+                </a>
+                <ul>
+                    <li><img src="images/notification.png"></li>
+                    <li><img src="images/inbox.png"></li>
+                    <li><img src="images/video.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="nav-right-col">
+                 
+                <div class="searchbox">
+                    <img src="images/search.png">
+                   <input type="text" placeholder="Search Here"> 
+                </div>
+                <div class="user-icon online" onclick="settingsMenuToggle()">
+                    <img src="images/profilepic.jpg">
+                </div>
+            </div>
+
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+
+                <div class="inner-setting">
+                    <div class="user-profile">
+                        <img src="images/profilepic.jpg">
+                        <div>
+                            <p>Chruth Web Designs</p>
+                            <a href="profilePage.html">Edit your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>Post A Job</p>
+                            <a href="#">Make A Job Available</a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="setting-link">
+                        <img src="images/setting.png" class="settings-icon">
+                        <a href="#">Settings & Jobs Privacy <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="setting-link">
+                        <img src="images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="setting-link">
+                        <img src="images/display.png" class="settings-icon">
+                        <a href="#">Accessibility <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="setting-link">
+                        <img src="images/logout.png" class="settings-icon">
+                        <a href="#">Log Out <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </nav>
+
+
+        <div class="profile-box">
+            <img src="images/pexels-tranmautritam-251225.jpg" class="cover-img">
+            <div class="profile-details">
+                <div class="profile-left">
+                    <div class="profile-row">
+                        <img src="images/profilepic.jpg" class="profile-img">
+                        <div>
+                          <h3>Chruth Web Designs</h3>  
+                          <p>500 Partners - 40 Connects</p>
+                          <img src="images/mem1.jpg">
+                          <img src="images/mem2.jpg">
+                          <img src="images/mem3.jpg">
+                          <img src="images/mem4.jpg">
+                          <img src="images/profilepic.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-right">
+                    <button type="button"><img src="images/add-friends.png"> Connect</button>
+                    <button type="button"><img src="images/message.png"> Conversation</button>
+                    <br>
+                    <a href=""><img  src="images/more.png"></a>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <div class="description-col">
+
+                    <div class="about">
+                        <h3>About</h3>
+                        <p class="about-text">An Aspiring Web Developer....Follow me on my journey...to become a top Frontend Engineer!!!!!!</p>
+                        <hr>
+                        <ul>
+                            <li><img src="images/profile-study.png"> Student At freeCodeCamp</li>
+                            <li><img src="images/profile-study.png"> Finished At Elepe Community Senior High School</li>
+                            <li><img src="images/profile-location.png">Lagos, Nigeria</li>
+                        </ul>
+                    </div>
+
+                    <div class="about">
+                        <div class="title-box">
+                            <h3>Photos</h3>
+                            <a href="#">All Photos</a>
+                        </div>
+                        
+                        <div class="photo-box">
+                            <div><img src="images/pexels-trinity-kubassek-288621.jpg" alt=""></div>
+                            <div><img src="images/pexels-markus-spiske-177598.jpg" alt=""></div>
+                            <div><img src="images/pexels-samer-daboul-1216482.jpg" alt=""></div>
+                            <div><img src="images/pexels-markus-spiske-177598.jpg" alt=""></div>
+                        </div>                        
+                    </div>
+
+                    <div class="about">
+                        <div class="title-box">
+                            <h3>Friends</h3>
+                            <a href="#">All Friends</a>
+                        </div>
+                        <p>500 (40 Connects)</p>
+                        <div class="friends-box">
+                            <div><img src="images/photo1.png"><p>Seb</p></div>
+                            <div><img src="images/mem7.jpg"><p>Joe Stone</p></div>
+                            <div><img src="images/mem6.jpg"><p>Gabriel Martin</p></div>
+                            <div><img src="images/pexels-markus-spiske-177598.jpg"><p>Aaron Ben</p></div>
+                            <div><img src="images/pexels-anna-shvets-4588065.jpg"><p>Jude Lionel</p></div>
+                            <div><img src="images/pexels-vicky-deshmukh-1431465.jpg"><p>Prisca Samuels</p></div>
+                            <div><img src="images/member-6.png"><p>Esther Yue</p></div>
+                            <div><img src="images/mem5.jpg"><p>Barry Grant</p></div>
+                        </div>                        
+                    </div>
+
+                </div>
+                <div class="post-col">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="images/profilepic.jpg">
+                            <div>
+                                <p>Chruth Web Designs</p>
+                                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                                <!--Add icon-->
+                            </div>
+                        </div>
+    
+    
+                        <div class="input-container">
+                            <textarea  rows="3" placeholder="What Idea Do You Have Today"></textarea>
+    
+                            <div class="add-post-links">
+                                <a href="#"><img src="images/live-video.png">Go Live</a>
+                                <a href="#"><img src="images/photo.png">Photo/Video</a>
+                                <a href="#"><img src="images/feeling.png">Progam Feeling</a>
+                            </div>
+    
+    
+    
+                        </div>
+                        
+    
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profilepic.jpg">
+                                <div>
+                                    <p>Chruth Web Designs</p>
+                                    <span>Febuary 27 2024, 19:57 pm</span>
+                                    <!--Add icon-->
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text ">I'm an aspiring Web Developer with 1 year of experience,I am also available for work,
+                            Several languages I'm good with include HTML5 CSS3 and Javascript. <a href="#">My Github</a></p>
+                            <img src="images/pexels-pixabay-62289.jpg" class="post-img">
+    
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">200</div>
+                                    <div><img src="images/comments.png">26</div>
+                                    <div><img src="images/share.png">12</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                     <img src="images/profilepic.jpg"><i class="fa-solid fa-caret-down"></i> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profilepic.jpg">
+                                <div>
+                                    <p>Chruth Web Designs</p>
+                                    <span>January 10 2024, 15:22 pm</span>
+                                    <!--Add icon-->
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text ">My Love for donkeys are over the roof. Get yourself one today</p>
+                            <img src="images/pexels-pixabay-208821.jpg" class="post-img">
+    
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">240</div>
+                                    <div><img src="images/comments.png">87</div>
+                                    <div><img src="images/share.png">56</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                     <img src="images/profilepic.jpg"><i class="fa-solid fa-caret-down"></i> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profilepic.jpg">
+                                <div>
+                                    <p>Chruth Web Designs</p>
+                                    <span>January 9 2024, 12:22 pm</span>
+                                    <!--Add icon-->
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text ">Beautiful Beautiful Mother Nature</p>
+                            <img src="images/pexels-david-rama-535431.jpg" class="post-img">
+    
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">340</div>
+                                    <div><img src="images/comments.png">100</div>
+                                    <div><img src="images/share.png">59</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                     <img src="images/profilepic.jpg"><i class="fa-solid fa-caret-down"></i> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profilepic.jpg">
+                                <div>
+                                    <p>Chruth Web Designs</p>
+                                    <span>January 7 2024, 15:22 pm</span>
+                                    <!--Add icon-->
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text ">Chikens.....hmmmmm</p>
+                            <img src="images/pexels-samer-daboul-1216482.jpg" class="post-img">
+    
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">180</div>
+                                    <div><img src="images/comments.png">50</div>
+                                    <div><img src="images/share.png">19</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                     <img src="images/profilepic.jpg"><i class="fa-solid fa-caret-down"></i> 
+                                </div>
+                            </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profilepic.jpg">
+                                <div>
+                                    <p>Chruth Web Designs</p>
+                                    <span>January 1 2024, 10:02 am</span>
+                                    <!--Add icon-->
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text ">Programming is <strong>OXYGEN</strong>.......</p>
+                            <img src="images/pexels-markus-spiske-177598.jpg" class="post-img">
+    
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">240</div>
+                                    <div><img src="images/comments.png">87</div>
+                                    <div><img src="images/share.png">56</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                     <img src="images/profilepic.jpg"><i class="fa-solid fa-caret-down"></i> 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2024 Chruth Web Designs</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
